@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+}
+
+.shap{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+}
+
+.h-text{
+   color: aliceblue;
+   position: absolute;
+  top: 20%; /* Перемещаем блок текста вверх на 50% относительно родительского контейнера */
+  left: 50%; /* Перемещаем блок текста влево на 50% относительно родительского контейнера */
+  transform: translate(-50%, -50%); /* Корректируем положение блока текста, чтобы он оказался точно посередине */
+  opacity: 0.7;
+  font-size: 36px;
+}
+
+.ims-shap{
+    display: flex;
+    flex-basis: auto;
+    align-self: center;
+    max-width: 100%;
+    background-size: 30% 100%;;
+}
+
+.h-text{
+    margin-top: 1px;
+}
+
+.product-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  
+    
+}
+
+.product-row1{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  
+}
+
+.Name{
+    color:aliceblue;
+}
+
+.imv{
+    
+    width: 30%; /* Устанавливаем ширину изображения в 30% от ширины контейнера */
+  height: auto; /* Поддерживаем пропорции, автоматически рассчитывая высоту */
+}
+
+.menu{
+    padding-top: 10px;
+}
+
+.product{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.tg-text{
+    color: aliceblue;
+    margin-left: 40px;
+    filter: opacity(30%);
+}
+
+.tg{
+    margin-left: 50px;
+}
+
+.button{
+    color: aliceblue;
+    font-size: 56px;
+    text-decoration: none;
+    margin: 20px 20px 40px 920px;
+ }
